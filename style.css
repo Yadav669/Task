@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.cont{
+    height: 100%;
+    width: 100%;
+    background: #0f1724;
+    overflow-y: auto;
+    padding-bottom: 30px;
+}
+
+.top-tablist h1 {
+    color: white;
+    font-size: 22px;
+    font-weight: semibold;
+    padding: 10px;
+}
+
+.nav-item button {
+    background: transparent;
+    border: solid 0px black;
+    color: grey;
+    font: semibold;
+}
+
+.nav-item .active {
+    color: white;
+    border-bottom: solid 2px green;
+}
+
+#chapterWiseTab .nav-item .active {
+    color: white;
+    border: solid 2px green;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: solid 0px black;
+}
+
+.accordion-tab{
+    background: #19283d;
+    color: gray;
+    padding: 10px;
+}
+
+.accordion-tab h2{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.btn-arrow{
+    background-color: transparent;
+    border: solid 1px green;
+    border-radius: 50%;
+    color: green;
+    height: 35px;
+    width: 35px;
+}
+
+.numbers{
+    height: 28px;
+    width: 28px;
+    background: #304874;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.acc-content{
+    padding: 10px 60px;
+}
+
+.topics-block{
+    width: 100%;
+    border-bottom: solid 2px white;
+    padding: 15px 0px;
+}
+.bs {
+    width: 10%; 
+    border-radius: 7px;
+    background-color: rgb(127, 172, 119);
+    color: #fff;
+    font-weight: 700;
+    margin-left: 60%;
+    transition: all 0.3s ease-in-out; 
+}
+
+@media (max-width: 1024px) {
+    .bs {
+        width: 20%; 
+        margin-left: 40%; 
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .bs {
+        width: 30%; 
+        margin-left: 35%; 
+        font-size: 12px; 
+        padding: 5px 0; 
+    }
+}
+
+@media (max-width: 480px) {
+    .bs {
+        width: 50%; 
+        margin-left: 25%; 
+        font-size: 10px; 
+        padding: 8px 0; 
+    }
+}
+
+@media (max-width: 360px) {
+    .bs {
+        width: 70%; 
+        margin-left: 15%; 
+        font-size: 9px;
+        padding: 10px 0; 
+    }
+}
